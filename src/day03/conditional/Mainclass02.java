@@ -1,5 +1,10 @@
 package day03.conditional;
 
+/*
+ *  null - 변수에 값이 없다라는 뜻
+ *  	정확히는 참조형 변수에 참조값이 없다!
+ */
+
 public class Mainclass02 {
 	public static void main(String[] args) {
 		int score = 75;

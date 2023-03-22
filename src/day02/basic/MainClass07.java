@@ -7,7 +7,7 @@ import java.math.BigDecimal;
  *  ! 부동소수점 오차
  *  	컴퓨터가 실수 계산을 잘 못한다
  *  
- *  실수는 부동소수점 예외처리 필수! PG!
+ *  실수는 부동소수점 예외처리 필수!
  *  
  */
 public class MainClass07 {

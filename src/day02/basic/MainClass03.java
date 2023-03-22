@@ -14,7 +14,7 @@ public class MainClass03 {
 		// 논리형 변수 선언하기
 		boolean isWait;
 		// 선언한 변수에 값 대입하기
-		isWait = true; //bloolean isWait = ture;
+		isWait = true; //boolean isWait = ture;
 		
 		System.out.println("논리형 변수 값 : "+ isWait);
 		
