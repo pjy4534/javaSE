@@ -86,6 +86,7 @@ public class Mainclass01 {
 		}
 
 		// String 실제값을 비교하려면 equals() 메소드를 사용해야한다.
+		// 단 NullPointerException 주의!
 		if(str.equals(str3)) {
 			System.out.println("str 과 str3 은 같다.");
 		}
