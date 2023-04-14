@@ -4,6 +4,7 @@ import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 
 /*
@@ -14,7 +15,7 @@ import java.io.PrintStream;
  * 
  */
 public class MainClass03 {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		FileInputStream fis = null; // null로 값을 잡는 이유 - 복습
 		BufferedInputStream bis = null;
 		
@@ -48,7 +49,7 @@ public class MainClass03 {
 			bos.flush();	// 버퍼에 남은 데이터를 파일에 쓰고 버퍼를 비움
 			
 			ps.println();
-			ps.println("-------------------------------------------")
+			ps.println("-------------------------------------------");
 			ps.print("안녕하세요");
 			ps.println("PrintStream으로 작성했어요");
 			ps.println("-------------------------------------------");
